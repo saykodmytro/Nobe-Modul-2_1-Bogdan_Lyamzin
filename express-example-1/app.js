@@ -1,3 +1,4 @@
+// для створення веб-сервера імпортуємо експресс
 const express = require("express");
 
 const app = express(); // app - веб-сервер

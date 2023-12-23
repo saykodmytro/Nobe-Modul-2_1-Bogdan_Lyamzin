@@ -1,6 +1,7 @@
 // для створення веб-сервера імпортуємо експресс
-const express = require("express");
+const express = require("express"); // express - це обєкт який має в собі веб сервер  та інші властивості
 
+// Щоб створити веб-сервер викликаємо express як функцію і вона нам поверне веб-сервер
 const app = express(); // app - веб-сервер
 
 app.get("/", (request, response) => {
